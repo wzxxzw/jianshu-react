@@ -6,7 +6,8 @@ import {
 	NavItem,
 	NavSearch,
 	Addition,
-	Button
+	Button,
+	SearchWrapper
 } from './style'
 class Header extends Component {
     render() { 
@@ -18,7 +19,10 @@ class Header extends Component {
 						 <NavItem className='left'>下载App</NavItem>
 						 <NavItem className='right'>Aa</NavItem>
 						 <NavItem className='right'>登录</NavItem>
-						 <NavSearch></NavSearch>
+						 <SearchWrapper>
+								<NavSearch></NavSearch>
+								<i className="iconfont">&#xe62a;</i>
+						 </SearchWrapper>
 					</Nav>
 					<Addition>
 						<Button className='reg'>注册</Button>
