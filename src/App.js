@@ -1,9 +1,10 @@
 import React from 'react';
-import { GlobalStyle } from './style.js';
 import Header from './common/header/index'
+import GlobalIcon from './statics/iconfont/iconfont'
 function App() {
   return (
     <div>
+       <GlobalIcon/>
        <Header></Header>
     </div>
   );
